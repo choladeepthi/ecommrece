@@ -1,0 +1,491 @@
+#prof1
+		{
+			width: 100%;
+			height: 600px;
+			
+		}
+		#firstp
+		{
+			background-color: grey;
+			color: yellow;
+			font-weight: bold;
+			height: 80px;
+			text-align: center;
+			font-family: italic;
+			font-size: 60px;
+			
+		}
+		#firstp1
+        {
+            background-color: grey;
+			color: yellow;
+			font-weight: bold;
+			height: 50px;
+			text-align: center;
+			font-family: italic;
+			font-size: 30px;   
+        }
+
+		#pic1
+		{
+			margin-top: -10%;
+			float: right;
+			width: 10%;
+			height: 200px;
+		}
+		#pic2
+		{
+			margin-top: -10%;
+			float: left;
+			width: 10%;
+			height: 200px;
+		}
+		#photo
+		{
+			height: 100%;
+			width: 100%;
+			float: center;
+			padding-left: 10px;
+		}
+		#column
+		{
+			width: 50px;
+			float: left;
+			padding: 0px 20px;
+		}
+		#card
+		{
+			text-align: center;
+			padding: 20px;
+			box-shadow: 0px 4px 8px 0px rgba(0,0,0,0,2);
+		}
+		#column1
+		{
+			width: 300px;
+			float: left;
+			padding: 0px 20px;
+		}
+		#card1
+		{
+			text-align: center;
+			padding: 20px;
+			box-shadow: 0px 4px 8px 0px rgba(0,0,0,0,2);
+		}
+
+
+		#photo2
+		{
+			height: 80%;
+			width: 100%;
+		}
+		
+		
+		.checked {
+		      color: orange;
+		      float: center;
+		}
+		#ac
+		{
+			background-color: yellow;
+			color: white;
+			font-size: 20px;
+		}
+
+		/** {
+		  box-sizing: border-box;
+		}
+*/
+		/* Create three equal columns that floats next to each other */
+		.column1 {
+		  float: left;
+		  width: 33.33%;
+		  padding: 150px;
+		  height: 200px; /* Should be removed. Only for demonstration */
+		}
+
+		/* Clear floats after the columns */
+		.row1:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+
+    #sidenav
+ { 
+ 	display: none;
+ 	height: 7
+  0%; 
+ 	width: 18%; 
+ 	position: fixed; 
+ 	z-index: 1; 
+ 	top: 0;
+	left: 0; 
+	background-color: black; 
+	overflow-x: hidden; 
+	transition: 0.5s;
+	padding-top: 60px; 
+	margin-top: -4%; 
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#closebtn {
+			color: #5c4e40;
+			float: right;
+			cursor: pointer;			
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.dbutton,.pbutton,.rbutton,.cbutton,.fbutton,.lbutton,.vrbutton,.vsbutton
+{
+  border-radius: 4px;
+  background-color:gray;
+  border: none;
+  color: solid black;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  width: 97%;
+}
+
+.dbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.dbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.dbutton:hover span {
+  padding-right: 25px;
+}
+
+.dbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.pbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.pbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.pbutton:hover span {
+  padding-right: 25px;
+}
+
+.pbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.rbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.rbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.rbutton:hover span {
+  padding-right: 25px;
+}
+
+.rbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.cbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.cbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.cbutton:hover span {
+  padding-right: 25px;
+}
+
+.cbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.fbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.fbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.fbutton:hover span {
+  padding-right: 25px;
+}
+
+.fbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.lbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.lbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.lbutton:hover span {
+  padding-right: 25px;
+}
+
+.lbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.vrbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.vrbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.vrbutton:hover span {
+  padding-right: 25px;
+}
+
+.vrbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#logind{
+	float: right;
+	font-size: 50px;
+
+}
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: center;
+  width: 33.33%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+/* Float four columns side by side */
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row1 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column1{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card1{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+#photob{
+	height: 200px;
+	width: 550px;
+}
+body {
+  background:grey;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+footer {
+  background: #212529;
+}
+
+  body, html {
+    height: 100%;
+  }
+  
+  * {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: right;
+  width: 25%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: right;
+  width: 6%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#closebtn {
+			color: #5c4e40;
+			float: right;
+			cursor: pointer;
+      size: 40px;			
+}

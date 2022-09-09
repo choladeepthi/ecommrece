@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+            margin: 0;
+            padding: 20px 20px;
+    
+             background-size:100%;
+             background-position: cover;
+             font-family: inherit;
+            }
+</style>
+<li><a class="psw" routerLink="/land" routerLinkActive="active" ariaCurrentWhenActive="page"><img src="https://inspirationalweb.org/wp-content/uploads/2021/09/Shopping-Quotes-5.jpg" ></a></li>
+    <head>
+        <meta charset = "utf-8">
+        <title>Landing Page</title>
+        
+    </head>
+    <body>
+        <h1 style="text-align:left;font-size: 80px;position:fixed;right:70%;top:5%;">
+           SHOPPING
+        </h1>
+
+        <a  routerLink="/alogin" routerLinkActive="active" ariaCurrentWhenActive="page">
+            <button style="border: none;background: black;color:white;padding: 10px 0;width: 20%;font-size: 20px;font-weight: 800;cursor: pointer;border-radius: 50px;text-align:center;position:fixed;right:70%;top:50%;">Admin Login</button>	
+        </a>
+        
+        <a  routerLink="/ulogin" routerLinkActive="active" ariaCurrentWhenActive="page">
+            <button style="border: none;background: black;color: white;padding: 10px 0;width: 20%;font-size: 20px;font-weight: 800;cursor: pointer;border-radius: 50px;text-align: center;position:fixed;right:70%;top:60%;"> User Login</button>
+        </a>
+        
+        
+        
+    </body>
+    <script>
+         function l() {
+        window.location.href = "login.html ";
+    }  
+    function al() {
+        window.location.href = "alogin.html ";
+    }  
+    
+    </script>
+</html>
